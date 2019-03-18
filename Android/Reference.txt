@@ -1,0 +1,2 @@
+Command to change powershell window title
+$host.ui.RawUI.WindowTitle = ""
