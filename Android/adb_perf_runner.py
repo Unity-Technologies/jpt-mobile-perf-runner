@@ -87,7 +87,7 @@ def run_single_app(adb_cmd, app_name, apk_path, sleep_s, retry_amount, measure_s
         if measure_start is not False:
             ret = measure_startup(adb_cmd, sleep_s)
         else: 
-            print('waiting for test duration')
+            print('waiting the remainder')
             time.sleep(sleep_s)
             ret = get_results_from_logcat(adb_cmd)
         if ret is not None:
@@ -96,6 +96,51 @@ def run_single_app(adb_cmd, app_name, apk_path, sleep_s, retry_amount, measure_s
         print('Did not get result, retrying',counter,'more times')
     ret = 'Skipped after ' + str(retry_amount + 1) + ' attempts'
     return ret
+    
+def send_to_Kibana(url, device_id, sleep, result, headers):
+    test_url = url + '/_update'
+    print(test_url)
+    #result_string = ""
+    #for key,value in enumerate(results):
+    #    result_string += key + " : " + value + "\n"
+    #print(result_string)
+    string = {
+      "script" : {
+        "source" : """
+        int check = 0;
+        for (int i = 0; i < ctx._source.results.length; i++) {
+          if(ctx._source.results[i].containsValue(params.result_existing.serial)){
+            ctx._source.results[i].data.add(params.result_existing.data);
+            check = 1;
+            break;
+           }
+          }
+        if (check == 0 )ctx._source.results.add(params.result_new);
+        """,
+        "params" : 
+        {
+          "result_new" : {
+            "serial" : device_id,
+            "sleep" : str(sleep),
+            "data" : [
+                {
+                "frame_time" : str(result)
+              }
+            ]
+          },
+          "result_existing" : {
+            "serial" : device_id,
+            "sleep" : str(sleep),
+            "data" : {
+                "frame_time" : str(result)
+            }
+          }
+        }
+      }
+}
+    print (string)
+    r = requests.post(test_url, data = json.dumps(string), headers = headers, timeout = 5)
+    print (r.text)
     
 def main():
     parser = argparse.ArgumentParser(prog='adb_perf_runner')
@@ -123,6 +168,9 @@ def main():
     parser.add_argument(
         '--startup', action='store_true',
         help='Add this keyword to measure startup time. It will not collect the data, just measure time until data was output')
+    parser.add_argument(
+        '--kibana', action='store_true',
+        help='Add this keyword to send data to local Kibana server (in development)')
     args = parser.parse_args()
 
     sdk_root = 'C:/Android_stuff/SDK'
@@ -130,19 +178,23 @@ def main():
 
     adb_cmd = [adb_path]
     result_sets = []
-    
-    #kibana_url = "http://localhost:9200/performance/tests/"             #Kibana integration development
-    #headers = {"content-type" : "application/json"}
-    #r = requests.get(kibana_url + "_count", headers=headers, timeout=5)
-    #resp_json = r.json()
-    #test_id = resp_json["count"]
-    #kibana_send_url = kibana_url + str(test_id)
-    #start_time = datetime.datetime.now()
-    #test = {
-    #'test_started_date' : start_time,
-    #'test_finished_date' : "",
-    #'results' : []
-    #}
+    if (args.kibana):
+        kibana_url = "http://localhost:9200/performance/tests/"
+        headers = {"Content-Type" : "application/json"}
+        start_time = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+        #print(start_time)
+        test = {
+        'test_started_date' : start_time,
+        'test_finished_date' : start_time,
+        'results' : []
+        }
+        r = requests.post(kibana_url , data = json.dumps(test, default=str), headers=headers, timeout=5)
+        resp_json = r.json()
+        #print(resp_json)
+        test_id = resp_json["_id"]
+        kibana_send_url = kibana_url + str(test_id)
+        #print(kibana_send_url)
+        
     dir_path = os.path.dirname(os.path.realpath(__file__))
     results_path = os.path.join(dir_path,'results')
     if (os.path.isdir(results_path)) is False:
@@ -174,10 +226,13 @@ def main():
         measure = True
     else:
         measure = False
+        
     for i in range(len(apks)):
             result_sets.append([])
     call_program(adb_cmd + ['logcat', '-G', '10M'])
     level1 =  call_program(adb_cmd + ['shell', 'dumpsys', 'battery', '|', 'grep', 'level']).strip()
+    
+    
     for i in range(args.run):
         print('Cycle ', i , '\n')
         write_to_file(result_file_path, 'Cycle ' + str(i) + '\n')
@@ -186,11 +241,22 @@ def main():
             print('Battery level before test # ' + str(i_apk) + ' is ' + str(tempBatLevel.decode('utf-8')) + '\n')
             write_to_file(result_file_path, 'Battery level before test # ' + str(i_apk) + ' is ' + str(tempBatLevel.decode('utf-8')) + '\n')
             result = run_single_app(adb_cmd, args.app_name, apk, args.sleep, args.retry, measure)
+            if(args.kibana):
+                send_to_Kibana(kibana_send_url, device_id, args.sleep, result, headers)
             print('Result set {0}: {1}'.format(i_apk, result))
             write_to_file(result_file_path, 'Result set {0}: {1}'.format(i_apk, result) + '\n') 
             result_sets[i_apk].append(result)
     level2 = call_program(adb_cmd + ['shell', 'dumpsys', 'battery', '|', 'grep', 'level']).strip()
     print(result_sets)
+    if(args.kibana):
+        finish_time = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+        body = {
+            'doc' : {
+                'test_finished_date' : finish_time
+            }
+        }
+        r = requests.post(kibana_send_url + '/_update', data = json.dumps(body), headers = headers, timeout = 5)
+    
     for set in result_sets:
             for string in set:
                 write_to_file(result_file_path, string + '\n')
