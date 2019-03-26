@@ -25,5 +25,10 @@ OR
 
 --kibana (This is for kibana development right now, only write this if you have an elastic search server running. This is pretty much for development right now) 
 
+An example of this sort of command could look like this
+```
+python adb_perf_runner.py com.speed.weed --folder C:\Unity_Projects\Project\APKS_TO_TEST\Vulkan --run 5 --sleep 400 --device M9643AQ9222Z8
+```
+
 
 
