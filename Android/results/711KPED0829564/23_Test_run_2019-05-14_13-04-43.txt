@@ -1,0 +1,3 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 87

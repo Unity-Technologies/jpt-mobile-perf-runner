@@ -1,0 +1,9 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: 21.70379
+Battery level before test # 1 is level: 100
+Result set 1: 21.25676
+Battery level before test # 2 is level: 100
+Result set 2: 23.38514
+Battery level before test # 3 is level: 100

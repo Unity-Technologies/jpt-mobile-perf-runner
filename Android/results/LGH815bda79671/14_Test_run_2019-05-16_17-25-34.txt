@@ -1,0 +1,97 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: Test #1 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #1 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: lowp_skinning | RESULT: 150.6294 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: lowp_skinning | RESULT: 149.9029 ----
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: Test #2 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #2 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: lowp_skinning | RESULT: 150.3251 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: lowp_skinning | RESULT: 151.5002 ----
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: Test #3 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #3 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: lowp_skinning | RESULT: 152.8444 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: lowp_skinning | RESULT: 151.0707 ----
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: Test #4 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #4 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: lowp_skinning | RESULT: 147.3202 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: lowp_skinning | RESULT: 146.7653 ----
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: Test #5 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #5 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: lowp_skinning | RESULT: 151.4123 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: lowp_skinning | RESULT: 151.9693 ----
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+ SCENE: lowp_skinning | RESULT: 150.6294 ----
+ SCENE: lowp_skinning | RESULT: 150.3251 ----
+ SCENE: lowp_skinning | RESULT: 152.8444 ----
+ SCENE: lowp_skinning | RESULT: 147.3202 ----
+ SCENE: lowp_skinning | RESULT: 151.4123 ----
+ SCENE: lowp_skinning | RESULT: 149.9029 ----
+ SCENE: lowp_skinning | RESULT: 151.5002 ----
+ SCENE: lowp_skinning | RESULT: 151.0707 ----
+ SCENE: lowp_skinning | RESULT: 146.7653 ----
+ SCENE: lowp_skinning | RESULT: 151.9693 ----
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Mobile_Torture_5k_Skinning_GLES3_BRANCH.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 1
+APK Name:Mobile_Torture_5k_Skinning_GLES3_TRUNK.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 2
+APK Name:Mobile_Torture_Lowp_Skinning_GLES3_BRANCH.apk
+ SCENE: lowp_skinning | RESULT: 150.6294 ----
+ SCENE: lowp_skinning | RESULT: 150.3251 ----
+ SCENE: lowp_skinning | RESULT: 152.8444 ----
+ SCENE: lowp_skinning | RESULT: 147.3202 ----
+ SCENE: lowp_skinning | RESULT: 151.4123 ----
+Result set 3
+APK Name:Mobile_Torture_Lowp_Skinning_GLES3_TRUNK.apk
+ SCENE: lowp_skinning | RESULT: 149.9029 ----
+ SCENE: lowp_skinning | RESULT: 151.5002 ----
+ SCENE: lowp_skinning | RESULT: 151.0707 ----
+ SCENE: lowp_skinning | RESULT: 146.7653 ----
+ SCENE: lowp_skinning | RESULT: 151.9693 ----

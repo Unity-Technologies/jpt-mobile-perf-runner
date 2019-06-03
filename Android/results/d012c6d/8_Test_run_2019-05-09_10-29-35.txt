@@ -1,0 +1,77 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: 20.19317
+Battery level before test # 1 is level: 100
+Result set 1: 20.23126
+Battery level before test # 2 is level: 100
+Result set 2: 24.47042
+Battery level before test # 3 is level: 100
+Result set 3: 24.6976
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: 20.62147
+Battery level before test # 1 is level: 100
+Result set 1: 20.23172
+Battery level before test # 2 is level: 100
+Result set 2: 24.95628
+Battery level before test # 3 is level: 100
+Result set 3: 24.66998
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: 20.23176
+Battery level before test # 1 is level: 100
+Result set 1: 20.2334
+Battery level before test # 2 is level: 100
+Result set 2: 24.64532
+Battery level before test # 3 is level: 100
+Result set 3: 24.65841
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: 20.5948
+Battery level before test # 1 is level: 100
+Result set 1: 20.48188
+Battery level before test # 2 is level: 100
+Result set 2: 24.40346
+Battery level before test # 3 is level: 100
+Result set 3: Test #4 Skipped after 3 attempts
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: 20.36899
+Battery level before test # 1 is level: 100
+Result set 1: 20.09134
+Battery level before test # 2 is level: 100
+Result set 2: 24.46718
+Battery level before test # 3 is level: 100
+Result set 3: Test #5 Skipped after 3 attempts
+Cycle 5
+Battery level before test # 0 is level: 100
+Result set 0: 20.45168
+Battery level before test # 1 is level: 100
+Result set 1: 20.45721
+Battery level before test # 2 is level: 100
+Result set 2: 24.42934
+Battery level before test # 3 is level: 100
+Result set 3: Test #6 Skipped after 3 attempts
+Cycle 6
+Battery level before test # 0 is level: 100
+Result set 0: 20.51402
+Battery level before test # 1 is level: 100
+Result set 1: 20.17365
+Battery level before test # 2 is level: 100
+Result set 2: 25.01328
+Battery level before test # 3 is level: 100
+Result set 3: Test #7 Skipped after 3 attempts
+Cycle 7
+Battery level before test # 0 is level: 100
+Result set 0: 20.50098
+Battery level before test # 1 is level: 100
+Result set 1: 20.18034
+Battery level before test # 2 is level: 100
+Result set 2: 24.49675
+Battery level before test # 3 is level: 100
+Result set 3: Test #8 Skipped after 3 attempts
+Cycle 8
+Battery level before test # 0 is level: 100
+Result set 0: 20.53898
+Battery level before test # 1 is level: 100

@@ -1,0 +1,98 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: Test #1 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 32.63106
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: Test #2 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.28048
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: Test #3 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 32.91752
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: Test #4 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.27753
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: Test #5 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.57798
+Cycle 5
+Battery level before test # 0 is level: 100
+Result set 0: Test #6 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.65517
+Cycle 6
+Battery level before test # 0 is level: 100
+Result set 0: Test #7 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.20937
+Cycle 7
+Battery level before test # 0 is level: 100
+Result set 0: Test #8 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 34.15044
+Cycle 8
+Battery level before test # 0 is level: 100
+Result set 0: Test #9 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.84143
+Cycle 9
+Battery level before test # 0 is level: 100
+Result set 0: Test #10 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: 33.69308
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #6 Skipped after 2 attempts
+Test #7 Skipped after 2 attempts
+Test #8 Skipped after 2 attempts
+Test #9 Skipped after 2 attempts
+Test #10 Skipped after 2 attempts
+32.63106
+33.28048
+32.91752
+33.27753
+33.57798
+33.65517
+33.20937
+34.15044
+33.84143
+33.69308
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Gradle_IL2CPP_ARM64_OpenGLES3_release.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #6 Skipped after 2 attempts
+Test #7 Skipped after 2 attempts
+Test #8 Skipped after 2 attempts
+Test #9 Skipped after 2 attempts
+Test #10 Skipped after 2 attempts
+Result set 1
+APK Name:Gradle_Mono2x_ARMv7_OpenGLES3_release.apk
+32.63106
+33.28048
+32.91752
+33.27753
+33.57798
+33.65517
+33.20937
+34.15044
+33.84143
+33.69308

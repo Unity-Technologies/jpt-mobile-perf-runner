@@ -1,0 +1,182 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: Test #1 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #1 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.73762
+Battery level before test # 3 is level: 100
+Result set 3: 16.73523
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: Test #2 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #2 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74418
+Battery level before test # 3 is level: 100
+Result set 3: 16.74411
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: Test #3 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #3 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74243
+Battery level before test # 3 is level: 100
+Result set 3: 16.74185
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: Test #4 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #4 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74226
+Battery level before test # 3 is level: 100
+Result set 3: 16.74162
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: Test #5 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #5 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74161
+Battery level before test # 3 is level: 100
+Result set 3: 16.74406
+Cycle 5
+Battery level before test # 0 is level: 100
+Result set 0: Test #6 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #6 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74226
+Battery level before test # 3 is level: 100
+Result set 3: 16.7416
+Cycle 6
+Battery level before test # 0 is level: 100
+Result set 0: Test #7 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #7 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74344
+Battery level before test # 3 is level: 100
+Result set 3: 16.74314
+Cycle 7
+Battery level before test # 0 is level: 100
+Result set 0: Test #8 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #8 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74381
+Battery level before test # 3 is level: 100
+Result set 3: 16.7433
+Cycle 8
+Battery level before test # 0 is level: 100
+Result set 0: Test #9 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #9 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.74238
+Battery level before test # 3 is level: 100
+Result set 3: 16.74312
+Cycle 9
+Battery level before test # 0 is level: 100
+Result set 0: Test #10 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #10 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: 16.7421
+Battery level before test # 3 is level: 100
+Result set 3: 16.74164
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #6 Skipped after 2 attempts
+Test #7 Skipped after 2 attempts
+Test #8 Skipped after 2 attempts
+Test #9 Skipped after 2 attempts
+Test #10 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #6 Skipped after 2 attempts
+Test #7 Skipped after 2 attempts
+Test #8 Skipped after 2 attempts
+Test #9 Skipped after 2 attempts
+Test #10 Skipped after 2 attempts
+16.73762
+16.74418
+16.74243
+16.74226
+16.74161
+16.74226
+16.74344
+16.74381
+16.74238
+16.7421
+16.73523
+16.74411
+16.74185
+16.74162
+16.74406
+16.7416
+16.74314
+16.7433
+16.74312
+16.74164
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Gradle_IL2CPP_ARM64_OpenGLES3_release.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #6 Skipped after 2 attempts
+Test #7 Skipped after 2 attempts
+Test #8 Skipped after 2 attempts
+Test #9 Skipped after 2 attempts
+Test #10 Skipped after 2 attempts
+Result set 1
+APK Name:Gradle_IL2CPP_ARM64_Vulkan_release.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #6 Skipped after 2 attempts
+Test #7 Skipped after 2 attempts
+Test #8 Skipped after 2 attempts
+Test #9 Skipped after 2 attempts
+Test #10 Skipped after 2 attempts
+Result set 2
+APK Name:Gradle_Mono2x_ARMv7_OpenGLES3_release.apk
+16.73762
+16.74418
+16.74243
+16.74226
+16.74161
+16.74226
+16.74344
+16.74381
+16.74238
+16.7421
+Result set 3
+APK Name:Gradle_Mono2x_ARMv7_Vulkan_release.apk
+16.73523
+16.74411
+16.74185
+16.74162
+16.74406
+16.7416
+16.74314
+16.7433
+16.74312
+16.74164

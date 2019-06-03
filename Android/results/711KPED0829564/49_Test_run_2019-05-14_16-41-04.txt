@@ -1,0 +1,5 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+Battery level before test # 1 is level: 100

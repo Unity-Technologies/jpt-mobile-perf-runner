@@ -1,0 +1,185 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: TestSceneLayers | RESULT: 31.62599 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: TestSceneLayers | RESULT: 23.10076 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: TestSceneLayers | RESULT: 29.62713 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: TestSceneLayers | RESULT: 21.59682 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: TestSceneLayers | RESULT: 31.20139 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: TestSceneLayers | RESULT: 24.18982 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: TestSceneLayers | RESULT: 27.54887 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: TestSceneLayers | RESULT: 22.0106 ----
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: TestSceneLayers | RESULT: 31.54245 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: TestSceneLayers | RESULT: 23.14597 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: TestSceneLayers | RESULT: 29.55361 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: TestSceneLayers | RESULT: 21.67535 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: TestSceneLayers | RESULT: 31.26215 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: TestSceneLayers | RESULT: 24.13101 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: TestSceneLayers | RESULT: 27.64227 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: TestSceneLayers | RESULT: 22.14018 ----
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: TestSceneLayers | RESULT: 31.5891 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: TestSceneLayers | RESULT: 23.10296 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: TestSceneLayers | RESULT: 29.64308 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: TestSceneLayers | RESULT: 21.69554 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: TestSceneLayers | RESULT: 31.35766 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: TestSceneLayers | RESULT: 24.27667 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: TestSceneLayers | RESULT: 27.52386 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: TestSceneLayers | RESULT: 21.84787 ----
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: TestSceneLayers | RESULT: 31.60257 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: TestSceneLayers | RESULT: 23.15873 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: TestSceneLayers | RESULT: 29.59009 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: TestSceneLayers | RESULT: 21.61832 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: TestSceneLayers | RESULT: 31.22657 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: TestSceneLayers | RESULT: 24.16622 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: TestSceneLayers | RESULT: 27.67834 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: TestSceneLayers | RESULT: 21.9081 ----
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: TestSceneLayers | RESULT: 31.59545 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: TestSceneLayers | RESULT: 23.10969 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: TestSceneLayers | RESULT: 29.71764 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: TestSceneLayers | RESULT: 21.78871 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: TestSceneLayers | RESULT: 31.29149 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: TestSceneLayers | RESULT: 24.14964 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: TestSceneLayers | RESULT: 27.59733 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: TestSceneLayers | RESULT: 21.87987 ----
+ SCENE: TestSceneLayers | RESULT: 31.62599 ----
+ SCENE: TestSceneLayers | RESULT: 31.54245 ----
+ SCENE: TestSceneLayers | RESULT: 31.5891 ----
+ SCENE: TestSceneLayers | RESULT: 31.60257 ----
+ SCENE: TestSceneLayers | RESULT: 31.59545 ----
+ SCENE: TestSceneLayers | RESULT: 23.10076 ----
+ SCENE: TestSceneLayers | RESULT: 23.14597 ----
+ SCENE: TestSceneLayers | RESULT: 23.10296 ----
+ SCENE: TestSceneLayers | RESULT: 23.15873 ----
+ SCENE: TestSceneLayers | RESULT: 23.10969 ----
+ SCENE: TestSceneLayers | RESULT: 29.62713 ----
+ SCENE: TestSceneLayers | RESULT: 29.55361 ----
+ SCENE: TestSceneLayers | RESULT: 29.64308 ----
+ SCENE: TestSceneLayers | RESULT: 29.59009 ----
+ SCENE: TestSceneLayers | RESULT: 29.71764 ----
+ SCENE: TestSceneLayers | RESULT: 21.59682 ----
+ SCENE: TestSceneLayers | RESULT: 21.67535 ----
+ SCENE: TestSceneLayers | RESULT: 21.69554 ----
+ SCENE: TestSceneLayers | RESULT: 21.61832 ----
+ SCENE: TestSceneLayers | RESULT: 21.78871 ----
+ SCENE: TestSceneLayers | RESULT: 31.20139 ----
+ SCENE: TestSceneLayers | RESULT: 31.26215 ----
+ SCENE: TestSceneLayers | RESULT: 31.35766 ----
+ SCENE: TestSceneLayers | RESULT: 31.22657 ----
+ SCENE: TestSceneLayers | RESULT: 31.29149 ----
+ SCENE: TestSceneLayers | RESULT: 24.18982 ----
+ SCENE: TestSceneLayers | RESULT: 24.13101 ----
+ SCENE: TestSceneLayers | RESULT: 24.27667 ----
+ SCENE: TestSceneLayers | RESULT: 24.16622 ----
+ SCENE: TestSceneLayers | RESULT: 24.14964 ----
+ SCENE: TestSceneLayers | RESULT: 27.54887 ----
+ SCENE: TestSceneLayers | RESULT: 27.64227 ----
+ SCENE: TestSceneLayers | RESULT: 27.52386 ----
+ SCENE: TestSceneLayers | RESULT: 27.67834 ----
+ SCENE: TestSceneLayers | RESULT: 27.59733 ----
+ SCENE: TestSceneLayers | RESULT: 22.0106 ----
+ SCENE: TestSceneLayers | RESULT: 22.14018 ----
+ SCENE: TestSceneLayers | RESULT: 21.84787 ----
+ SCENE: TestSceneLayers | RESULT: 21.9081 ----
+ SCENE: TestSceneLayers | RESULT: 21.87987 ----
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Terrain_GLES3_DrawInstanced_Deferred.apk
+ SCENE: TestSceneLayers | RESULT: 31.62599 ----
+ SCENE: TestSceneLayers | RESULT: 31.54245 ----
+ SCENE: TestSceneLayers | RESULT: 31.5891 ----
+ SCENE: TestSceneLayers | RESULT: 31.60257 ----
+ SCENE: TestSceneLayers | RESULT: 31.59545 ----
+Result set 1
+APK Name:Terrain_GLES3_DrawInstanced_Forward.apk
+ SCENE: TestSceneLayers | RESULT: 23.10076 ----
+ SCENE: TestSceneLayers | RESULT: 23.14597 ----
+ SCENE: TestSceneLayers | RESULT: 23.10296 ----
+ SCENE: TestSceneLayers | RESULT: 23.15873 ----
+ SCENE: TestSceneLayers | RESULT: 23.10969 ----
+Result set 2
+APK Name:Terrain_GLES3_NoDrawInstanced_Deferred.apk
+ SCENE: TestSceneLayers | RESULT: 29.62713 ----
+ SCENE: TestSceneLayers | RESULT: 29.55361 ----
+ SCENE: TestSceneLayers | RESULT: 29.64308 ----
+ SCENE: TestSceneLayers | RESULT: 29.59009 ----
+ SCENE: TestSceneLayers | RESULT: 29.71764 ----
+Result set 3
+APK Name:Terrain_GLES3_NoDrawInstanced_Forward.apk
+ SCENE: TestSceneLayers | RESULT: 21.59682 ----
+ SCENE: TestSceneLayers | RESULT: 21.67535 ----
+ SCENE: TestSceneLayers | RESULT: 21.69554 ----
+ SCENE: TestSceneLayers | RESULT: 21.61832 ----
+ SCENE: TestSceneLayers | RESULT: 21.78871 ----
+Result set 4
+APK Name:Terrain_Vulkan_DrawInstanced_Deferred.apk
+ SCENE: TestSceneLayers | RESULT: 31.20139 ----
+ SCENE: TestSceneLayers | RESULT: 31.26215 ----
+ SCENE: TestSceneLayers | RESULT: 31.35766 ----
+ SCENE: TestSceneLayers | RESULT: 31.22657 ----
+ SCENE: TestSceneLayers | RESULT: 31.29149 ----
+Result set 5
+APK Name:Terrain_Vulkan_DrawInstanced_Forward.apk
+ SCENE: TestSceneLayers | RESULT: 24.18982 ----
+ SCENE: TestSceneLayers | RESULT: 24.13101 ----
+ SCENE: TestSceneLayers | RESULT: 24.27667 ----
+ SCENE: TestSceneLayers | RESULT: 24.16622 ----
+ SCENE: TestSceneLayers | RESULT: 24.14964 ----
+Result set 6
+APK Name:Terrain_Vulkan_NoDrawInstanced_Deferred.apk
+ SCENE: TestSceneLayers | RESULT: 27.54887 ----
+ SCENE: TestSceneLayers | RESULT: 27.64227 ----
+ SCENE: TestSceneLayers | RESULT: 27.52386 ----
+ SCENE: TestSceneLayers | RESULT: 27.67834 ----
+ SCENE: TestSceneLayers | RESULT: 27.59733 ----
+Result set 7
+APK Name:Terrain_Vulkan_NoDrawInstanced_Forward.apk
+ SCENE: TestSceneLayers | RESULT: 22.0106 ----
+ SCENE: TestSceneLayers | RESULT: 22.14018 ----
+ SCENE: TestSceneLayers | RESULT: 21.84787 ----
+ SCENE: TestSceneLayers | RESULT: 21.9081 ----
+ SCENE: TestSceneLayers | RESULT: 21.87987 ----

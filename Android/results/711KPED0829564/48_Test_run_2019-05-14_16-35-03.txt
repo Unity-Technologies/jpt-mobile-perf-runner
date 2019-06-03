@@ -1,0 +1,26 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: Test #1 Skipped after 1 attempts
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+Test #1 Skipped after 1 attempts
+ SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+ SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+ SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:FakeTest_GLES3.apk
+Test #1 Skipped after 1 attempts
+ SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+Result set 1
+APK Name:FakeTest_Vulkan.apk
+ SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----
+ SCENE: Scene01 | RESULT: 16.34 ---- SCENE: Scene02 | RESULT: 18.34 ---- SCENE: Scene03 | RESULT: 17.34 ---- SCENE: Scene04 | RESULT: 17.74 ----

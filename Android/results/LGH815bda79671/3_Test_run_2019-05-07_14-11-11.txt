@@ -1,0 +1,98 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: 35.09597
+Battery level before test # 1 is level: 100
+Result set 1: 34.89461
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: 35.55578
+Battery level before test # 1 is level: 100
+Result set 1: 34.06604
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: 36.32184
+Battery level before test # 1 is level: 100
+Result set 1: 35.30587
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: 36.32852
+Battery level before test # 1 is level: 100
+Result set 1: 34.77578
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: 36.67481
+Battery level before test # 1 is level: 100
+Result set 1: 36.06824
+Cycle 5
+Battery level before test # 0 is level: 100
+Result set 0: 36.68418
+Battery level before test # 1 is level: 100
+Result set 1: 35.55088
+Cycle 6
+Battery level before test # 0 is level: 100
+Result set 0: 36.73456
+Battery level before test # 1 is level: 100
+Result set 1: 34.26304
+Cycle 7
+Battery level before test # 0 is level: 100
+Result set 0: 37.27893
+Battery level before test # 1 is level: 100
+Result set 1: 35.10635
+Cycle 8
+Battery level before test # 0 is level: 100
+Result set 0: 36.37109
+Battery level before test # 1 is level: 100
+Result set 1: 34.53855
+Cycle 9
+Battery level before test # 0 is level: 100
+Result set 0: 36.54844
+Battery level before test # 1 is level: 100
+Result set 1: 35.68495
+35.09597
+35.55578
+36.32184
+36.32852
+36.67481
+36.68418
+36.73456
+37.27893
+36.37109
+36.54844
+34.89461
+34.06604
+35.30587
+34.77578
+36.06824
+35.55088
+34.26304
+35.10635
+34.53855
+35.68495
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Gradle_IL2CPP_ARM64_OpenGLES3_release.apk
+35.09597
+35.55578
+36.32184
+36.32852
+36.67481
+36.68418
+36.73456
+37.27893
+36.37109
+36.54844
+Result set 1
+APK Name:Gradle_Mono2x_ARMv7_OpenGLES3_release.apk
+34.89461
+34.06604
+35.30587
+34.77578
+36.06824
+35.55088
+34.26304
+35.10635
+34.53855
+35.68495

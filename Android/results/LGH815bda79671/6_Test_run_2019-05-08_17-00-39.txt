@@ -1,0 +1,14 @@
+BEGIN
+Cycle 0
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 4
+Cycle 5
+Cycle 6
+Cycle 7
+Cycle 8
+Cycle 9
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100

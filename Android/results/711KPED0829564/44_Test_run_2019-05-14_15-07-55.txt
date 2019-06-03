@@ -1,0 +1,5 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: Test #1 Skipped after 3 attempts
+Battery level before test # 1 is level: 100

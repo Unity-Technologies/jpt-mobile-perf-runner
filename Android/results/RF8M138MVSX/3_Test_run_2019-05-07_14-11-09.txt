@@ -1,0 +1,182 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: 16.73655
+Battery level before test # 1 is level: 100
+Result set 1: 16.73638
+Battery level before test # 2 is level: 100
+Result set 2: 16.73751
+Battery level before test # 3 is level: 100
+Result set 3: 16.73587
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: 16.73633
+Battery level before test # 1 is level: 100
+Result set 1: 16.73575
+Battery level before test # 2 is level: 100
+Result set 2: 16.73592
+Battery level before test # 3 is level: 100
+Result set 3: 16.73634
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: 16.73755
+Battery level before test # 1 is level: 100
+Result set 1: 16.73686
+Battery level before test # 2 is level: 100
+Result set 2: 16.73694
+Battery level before test # 3 is level: 100
+Result set 3: 16.7345
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: 16.73598
+Battery level before test # 1 is level: 100
+Result set 1: 16.737
+Battery level before test # 2 is level: 100
+Result set 2: 16.73607
+Battery level before test # 3 is level: 100
+Result set 3: 16.73619
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: 16.73708
+Battery level before test # 1 is level: 100
+Result set 1: 16.73813
+Battery level before test # 2 is level: 100
+Result set 2: 16.7373
+Battery level before test # 3 is level: 100
+Result set 3: 16.73735
+Cycle 5
+Battery level before test # 0 is level: 100
+Result set 0: 16.73717
+Battery level before test # 1 is level: 100
+Result set 1: 16.73723
+Battery level before test # 2 is level: 100
+Result set 2: 16.73685
+Battery level before test # 3 is level: 100
+Result set 3: 16.73676
+Cycle 6
+Battery level before test # 0 is level: 100
+Result set 0: 16.73622
+Battery level before test # 1 is level: 100
+Result set 1: 16.73648
+Battery level before test # 2 is level: 100
+Result set 2: 16.73771
+Battery level before test # 3 is level: 100
+Result set 3: 16.73848
+Cycle 7
+Battery level before test # 0 is level: 100
+Result set 0: 16.73853
+Battery level before test # 1 is level: 100
+Result set 1: 16.73889
+Battery level before test # 2 is level: 100
+Result set 2: 16.73832
+Battery level before test # 3 is level: 100
+Result set 3: 16.73717
+Cycle 8
+Battery level before test # 0 is level: 100
+Result set 0: 16.73732
+Battery level before test # 1 is level: 100
+Result set 1: 16.73727
+Battery level before test # 2 is level: 100
+Result set 2: 16.7351
+Battery level before test # 3 is level: 100
+Result set 3: 16.73621
+Cycle 9
+Battery level before test # 0 is level: 100
+Result set 0: 16.73604
+Battery level before test # 1 is level: 100
+Result set 1: 16.73714
+Battery level before test # 2 is level: 100
+Result set 2: 16.73635
+Battery level before test # 3 is level: 100
+Result set 3: 16.73644
+16.73655
+16.73633
+16.73755
+16.73598
+16.73708
+16.73717
+16.73622
+16.73853
+16.73732
+16.73604
+16.73638
+16.73575
+16.73686
+16.737
+16.73813
+16.73723
+16.73648
+16.73889
+16.73727
+16.73714
+16.73751
+16.73592
+16.73694
+16.73607
+16.7373
+16.73685
+16.73771
+16.73832
+16.7351
+16.73635
+16.73587
+16.73634
+16.7345
+16.73619
+16.73735
+16.73676
+16.73848
+16.73717
+16.73621
+16.73644
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Gradle_IL2CPP_ARM64_OpenGLES3_release.apk
+16.73655
+16.73633
+16.73755
+16.73598
+16.73708
+16.73717
+16.73622
+16.73853
+16.73732
+16.73604
+Result set 1
+APK Name:Gradle_IL2CPP_ARM64_Vulkan_release.apk
+16.73638
+16.73575
+16.73686
+16.737
+16.73813
+16.73723
+16.73648
+16.73889
+16.73727
+16.73714
+Result set 2
+APK Name:Gradle_Mono2x_ARMv7_OpenGLES3_release.apk
+16.73751
+16.73592
+16.73694
+16.73607
+16.7373
+16.73685
+16.73771
+16.73832
+16.7351
+16.73635
+Result set 3
+APK Name:Gradle_Mono2x_ARMv7_Vulkan_release.apk
+16.73587
+16.73634
+16.7345
+16.73619
+16.73735
+16.73676
+16.73848
+16.73717
+16.73621
+16.73644

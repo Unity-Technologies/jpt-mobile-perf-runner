@@ -1,0 +1,141 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0: Test #1 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #1 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: Test #1 Skipped after 2 attempts
+Battery level before test # 3 is level: 100
+Result set 3: Test #1 Skipped after 2 attempts
+Battery level before test # 4 is level: 100
+Result set 4: Test #1 Skipped after 2 attempts
+Battery level before test # 5 is level: 100
+Result set 5: Test #1 Skipped after 2 attempts
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0: Test #2 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #2 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: Test #2 Skipped after 2 attempts
+Battery level before test # 3 is level: 100
+Result set 3: Test #2 Skipped after 2 attempts
+Battery level before test # 4 is level: 100
+Result set 4: Test #2 Skipped after 2 attempts
+Battery level before test # 5 is level: 100
+Result set 5: Test #2 Skipped after 2 attempts
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0: Test #3 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #3 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: Test #3 Skipped after 2 attempts
+Battery level before test # 3 is level: 100
+Result set 3: Test #3 Skipped after 2 attempts
+Battery level before test # 4 is level: 100
+Result set 4: Test #3 Skipped after 2 attempts
+Battery level before test # 5 is level: 100
+Result set 5: Test #3 Skipped after 2 attempts
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0: Test #4 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #4 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: Test #4 Skipped after 2 attempts
+Battery level before test # 3 is level: 100
+Result set 3: Test #4 Skipped after 2 attempts
+Battery level before test # 4 is level: 100
+Result set 4: Test #4 Skipped after 2 attempts
+Battery level before test # 5 is level: 100
+Result set 5: Test #4 Skipped after 2 attempts
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0: Test #5 Skipped after 2 attempts
+Battery level before test # 1 is level: 100
+Result set 1: Test #5 Skipped after 2 attempts
+Battery level before test # 2 is level: 100
+Result set 2: Test #5 Skipped after 2 attempts
+Battery level before test # 3 is level: 100
+Result set 3: Test #5 Skipped after 2 attempts
+Battery level before test # 4 is level: 100
+Result set 4: Test #5 Skipped after 2 attempts
+Battery level before test # 5 is level: 100
+Result set 5: Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:BenchmarkOpenGLES2_Builtin.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 1
+APK Name:BenchmarkOpenGLES2_LWRP.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 2
+APK Name:BenchmarkOpenGLES3_Builtin.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 3
+APK Name:BenchmarkOpenGLES3_LWRP.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 4
+APK Name:BenchmarkVulkan_Builtin.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts
+Result set 5
+APK Name:BenchmarkVulkan_LWRP.apk
+Test #1 Skipped after 2 attempts
+Test #2 Skipped after 2 attempts
+Test #3 Skipped after 2 attempts
+Test #4 Skipped after 2 attempts
+Test #5 Skipped after 2 attempts

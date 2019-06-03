@@ -1,0 +1,185 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: 5k_skinning | RESULT: 1932.526 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: 5k_skinning | RESULT: 1804.528 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: 5k_skinning | RESULT: 196.811 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: 5k_skinning | RESULT: 240.0011 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: lowp_skinning | RESULT: 60.55215 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: lowp_skinning | RESULT: 61.1822 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: lowp_skinning | RESULT: 58.55586 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: lowp_skinning | RESULT: 58.49326 ----
+Cycle 1
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: 5k_skinning | RESULT: 1632.824 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: 5k_skinning | RESULT: 1755.972 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: 5k_skinning | RESULT: 226.0332 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: 5k_skinning | RESULT: 223.8223 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: lowp_skinning | RESULT: 60.45039 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: lowp_skinning | RESULT: 60.57841 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: lowp_skinning | RESULT: 58.17355 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: lowp_skinning | RESULT: 58.5683 ----
+Cycle 2
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: 5k_skinning | RESULT: 1938.214 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: 5k_skinning | RESULT: 1933.146 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: 5k_skinning | RESULT: 238.5568 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: 5k_skinning | RESULT: 258.4893 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: lowp_skinning | RESULT: 59.89944 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: lowp_skinning | RESULT: 61.68036 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: lowp_skinning | RESULT: 57.89438 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: lowp_skinning | RESULT: 58.95549 ----
+Cycle 3
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: 5k_skinning | RESULT: 1724.411 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: 5k_skinning | RESULT: 1815.901 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: 5k_skinning | RESULT: 219.7458 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: 5k_skinning | RESULT: 231.5761 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: lowp_skinning | RESULT: 60.07329 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: lowp_skinning | RESULT: 60.87638 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: lowp_skinning | RESULT: 57.85694 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: lowp_skinning | RESULT: 58.15142 ----
+Cycle 4
+Battery level before test # 0 is level: 100
+Result set 0:  SCENE: 5k_skinning | RESULT: 1726.173 ----
+Battery level before test # 1 is level: 100
+Result set 1:  SCENE: 5k_skinning | RESULT: 1814.502 ----
+Battery level before test # 2 is level: 100
+Result set 2:  SCENE: 5k_skinning | RESULT: 224.1036 ----
+Battery level before test # 3 is level: 100
+Result set 3:  SCENE: 5k_skinning | RESULT: 184.9037 ----
+Battery level before test # 4 is level: 100
+Result set 4:  SCENE: lowp_skinning | RESULT: 59.9729 ----
+Battery level before test # 5 is level: 100
+Result set 5:  SCENE: lowp_skinning | RESULT: 60.11662 ----
+Battery level before test # 6 is level: 100
+Result set 6:  SCENE: lowp_skinning | RESULT: 57.73192 ----
+Battery level before test # 7 is level: 100
+Result set 7:  SCENE: lowp_skinning | RESULT: 58.60178 ----
+ SCENE: 5k_skinning | RESULT: 1932.526 ----
+ SCENE: 5k_skinning | RESULT: 1632.824 ----
+ SCENE: 5k_skinning | RESULT: 1938.214 ----
+ SCENE: 5k_skinning | RESULT: 1724.411 ----
+ SCENE: 5k_skinning | RESULT: 1726.173 ----
+ SCENE: 5k_skinning | RESULT: 1804.528 ----
+ SCENE: 5k_skinning | RESULT: 1755.972 ----
+ SCENE: 5k_skinning | RESULT: 1933.146 ----
+ SCENE: 5k_skinning | RESULT: 1815.901 ----
+ SCENE: 5k_skinning | RESULT: 1814.502 ----
+ SCENE: 5k_skinning | RESULT: 196.811 ----
+ SCENE: 5k_skinning | RESULT: 226.0332 ----
+ SCENE: 5k_skinning | RESULT: 238.5568 ----
+ SCENE: 5k_skinning | RESULT: 219.7458 ----
+ SCENE: 5k_skinning | RESULT: 224.1036 ----
+ SCENE: 5k_skinning | RESULT: 240.0011 ----
+ SCENE: 5k_skinning | RESULT: 223.8223 ----
+ SCENE: 5k_skinning | RESULT: 258.4893 ----
+ SCENE: 5k_skinning | RESULT: 231.5761 ----
+ SCENE: 5k_skinning | RESULT: 184.9037 ----
+ SCENE: lowp_skinning | RESULT: 60.55215 ----
+ SCENE: lowp_skinning | RESULT: 60.45039 ----
+ SCENE: lowp_skinning | RESULT: 59.89944 ----
+ SCENE: lowp_skinning | RESULT: 60.07329 ----
+ SCENE: lowp_skinning | RESULT: 59.9729 ----
+ SCENE: lowp_skinning | RESULT: 61.1822 ----
+ SCENE: lowp_skinning | RESULT: 60.57841 ----
+ SCENE: lowp_skinning | RESULT: 61.68036 ----
+ SCENE: lowp_skinning | RESULT: 60.87638 ----
+ SCENE: lowp_skinning | RESULT: 60.11662 ----
+ SCENE: lowp_skinning | RESULT: 58.55586 ----
+ SCENE: lowp_skinning | RESULT: 58.17355 ----
+ SCENE: lowp_skinning | RESULT: 57.89438 ----
+ SCENE: lowp_skinning | RESULT: 57.85694 ----
+ SCENE: lowp_skinning | RESULT: 57.73192 ----
+ SCENE: lowp_skinning | RESULT: 58.49326 ----
+ SCENE: lowp_skinning | RESULT: 58.5683 ----
+ SCENE: lowp_skinning | RESULT: 58.95549 ----
+ SCENE: lowp_skinning | RESULT: 58.15142 ----
+ SCENE: lowp_skinning | RESULT: 58.60178 ----
+--------------------------------
+Battery on start level: 100
+Battery on finish level: 100
+Result set 0
+APK Name:Mobile_Torture_5k_Skinning_GLES3_BRANCH.apk
+ SCENE: 5k_skinning | RESULT: 1932.526 ----
+ SCENE: 5k_skinning | RESULT: 1632.824 ----
+ SCENE: 5k_skinning | RESULT: 1938.214 ----
+ SCENE: 5k_skinning | RESULT: 1724.411 ----
+ SCENE: 5k_skinning | RESULT: 1726.173 ----
+Result set 1
+APK Name:Mobile_Torture_5k_Skinning_GLES3_TRUNK.apk
+ SCENE: 5k_skinning | RESULT: 1804.528 ----
+ SCENE: 5k_skinning | RESULT: 1755.972 ----
+ SCENE: 5k_skinning | RESULT: 1933.146 ----
+ SCENE: 5k_skinning | RESULT: 1815.901 ----
+ SCENE: 5k_skinning | RESULT: 1814.502 ----
+Result set 2
+APK Name:Mobile_Torture_5k_Skinning_Vulkan_BRANCH.apk
+ SCENE: 5k_skinning | RESULT: 196.811 ----
+ SCENE: 5k_skinning | RESULT: 226.0332 ----
+ SCENE: 5k_skinning | RESULT: 238.5568 ----
+ SCENE: 5k_skinning | RESULT: 219.7458 ----
+ SCENE: 5k_skinning | RESULT: 224.1036 ----
+Result set 3
+APK Name:Mobile_Torture_5k_Skinning_Vulkan_TRUNK.apk
+ SCENE: 5k_skinning | RESULT: 240.0011 ----
+ SCENE: 5k_skinning | RESULT: 223.8223 ----
+ SCENE: 5k_skinning | RESULT: 258.4893 ----
+ SCENE: 5k_skinning | RESULT: 231.5761 ----
+ SCENE: 5k_skinning | RESULT: 184.9037 ----
+Result set 4
+APK Name:Mobile_Torture_Lowp_Skinning_GLES3_BRANCH.apk
+ SCENE: lowp_skinning | RESULT: 60.55215 ----
+ SCENE: lowp_skinning | RESULT: 60.45039 ----
+ SCENE: lowp_skinning | RESULT: 59.89944 ----
+ SCENE: lowp_skinning | RESULT: 60.07329 ----
+ SCENE: lowp_skinning | RESULT: 59.9729 ----
+Result set 5
+APK Name:Mobile_Torture_Lowp_Skinning_GLES3_TRUNK.apk
+ SCENE: lowp_skinning | RESULT: 61.1822 ----
+ SCENE: lowp_skinning | RESULT: 60.57841 ----
+ SCENE: lowp_skinning | RESULT: 61.68036 ----
+ SCENE: lowp_skinning | RESULT: 60.87638 ----
+ SCENE: lowp_skinning | RESULT: 60.11662 ----
+Result set 6
+APK Name:Mobile_Torture_Lowp_Skinning_Vulkan_BRANCH.apk
+ SCENE: lowp_skinning | RESULT: 58.55586 ----
+ SCENE: lowp_skinning | RESULT: 58.17355 ----
+ SCENE: lowp_skinning | RESULT: 57.89438 ----
+ SCENE: lowp_skinning | RESULT: 57.85694 ----
+ SCENE: lowp_skinning | RESULT: 57.73192 ----
+Result set 7
+APK Name:Mobile_Torture_Lowp_Skinning_Vulkan_TRUNK.apk
+ SCENE: lowp_skinning | RESULT: 58.49326 ----
+ SCENE: lowp_skinning | RESULT: 58.5683 ----
+ SCENE: lowp_skinning | RESULT: 58.95549 ----
+ SCENE: lowp_skinning | RESULT: 58.15142 ----
+ SCENE: lowp_skinning | RESULT: 58.60178 ----

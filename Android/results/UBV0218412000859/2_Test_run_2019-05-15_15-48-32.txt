@@ -1,0 +1,11 @@
+BEGIN
+Cycle 0
+Battery level before test # 0 is level: 100
+Result set 0:  FrameTime = 114.9786
+Battery level before test # 1 is level: 100
+Result set 1:  FrameTime = 41.98954
+Battery level before test # 2 is level: 100
+Result set 2:  FrameTime = 87.58096
+Battery level before test # 3 is level: 100
+Result set 3:  FrameTime = 38.08614
+Battery level before test # 4 is level: 100
