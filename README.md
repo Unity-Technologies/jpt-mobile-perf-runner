@@ -30,5 +30,11 @@ An example of this sort of command could look like this
 python adb_perf_runner.py com.speed.weed --folder C:\Unity_Projects\Project\APKS_TO_TEST\Vulkan --run 5 --sleep 400 --device M9643AQ9222Z8
 ```
 
+### ** Snipe it **
 
-
+To have Snipe it usability create a file "config.json" in your Android folder and add this info to it
+```
+{
+    "snipeItKey" : "{Bearer snipeItKey}"
+}
+```
