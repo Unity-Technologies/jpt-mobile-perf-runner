@@ -1,5 +1,0 @@
-BEGIN
-Cycle 0
-Battery level before test # 0 is level: 100
-Result set 0:  [Benchmark] SCENE: 001 - FillRate (Lit Shader - Directional Light) | AVG: 16.71571 | MEDIAN 16.68349 | MIN 6.469375 | MAX 29.5751 ---- [Benchmark] SCENE: 002 - FillRate (Lit Shader - Multiple Lights) | AVG: 40.01847 | MEDIAN 40.02885 | MIN 34.06417 | MAX 47.53078 ---- [Benchmark] SCENE: 003 - Realtime Shadows | AVG: 34.87909 | MEDIAN 34.50625 | MIN 24.24167 | MAX 77.93802 ---- [Benchmark] SCENE: 004 - Realtime Shadows Cascades | AVG: 50.60648 | MEDIAN 46.5513 | MIN 35.53026 | MAX 75.91859 ---- [Benchmark] SCENE: 005 - Batching | AVG: 127.4081 | MEDIAN 126.1505 | MIN 93.56156 | MAX 190.9712 ---- [Benchmark] SCENE: 007 - Bandwidth | AVG: 60.28103 | MEDIAN 60.82052 | MIN 44.77719 | MAX 88.02422 ---- [Benchmark] SCENE: 008 - FillRate (Terrain) | AVG: 62.71538 | MEDIAN 62.71739 | MIN 56.29437 | MAX 69.08312 ---- 
-Battery level before test # 1 is level: 100

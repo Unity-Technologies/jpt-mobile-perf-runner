@@ -12,6 +12,7 @@ import json
 import requests
 import datetime
 import six
+import base64
 
 def get_logcat(adb_cmd, filters=[]):
     if len(filters) > 0:
@@ -119,6 +120,7 @@ def measure_startup(adb_cmd, sleep):
     if ret is not None:
         launchTime = ticker - start
     time.sleep(max(start + sleep - ticker, 0))
+    print(launchTime)
     return launchTime
     
 def write_to_file(path,content):
@@ -132,10 +134,10 @@ def write_to_file(path,content):
     except EnvironmentError: 
         print ('Error writing to file', EnvironmentError) 
 
-def run_single_app(adb_cmd, app_name, apk_path):
+def run_single_app(adb_cmd, app_name, apk_path, measure_start, sleep_s):
     #counter = retry_amount + 1
     #while True and counter > 0:
-
+    ret = ''
     #call_program(adb_cmd + ['shell' , 'input', 'keyevent' , '26']) #Unlock phone before test run
     #call_program(adb_cmd + ['shell' , 'input', 'keyevent' , '82'])
     #call_program(adb_cmd + ['shell' , 'input', 'keyevent' , '82'])
@@ -151,17 +153,18 @@ def run_single_app(adb_cmd, app_name, apk_path):
     activity_name = '{}/com.unity3d.player.UnityPlayerActivity'.format(
         app_name)
     retry_call_program(adb_cmd + ['shell', 'am', 'start', '-n', activity_name], retry_count = 3)
+    if measure_start is not False:
+            print('Measuring startup time')
+            ret = measure_startup(adb_cmd, sleep_s)
+            time.sleep(5)
+    return ret
     #call_program(adb_cmd + ['shell' , 'input', 'keyevent' , '26'])
 
     
-def get_results(adb_cmd, sleep_s, retry_amount, measure_start):
-    if measure_start is not False:
-            ret = measure_startup(adb_cmd, sleep_s)
-            time.sleep(5)
-    else: 
-        print('waiting the remainder')
-        time.sleep(sleep_s)
-        ret = get_results_from_logcat(adb_cmd)
+def get_results(adb_cmd, sleep_s, retry_amount):
+    print('waiting the remainder')
+    time.sleep(sleep_s)
+    ret = get_results_from_logcat(adb_cmd)
     if ret is not None:
         return ret
     return None
@@ -209,7 +212,7 @@ def get_device_Snipeit(adb_cmd, device_id):
             return name,tag
     return name,tag
 
-def output_parse(result, device_id, info, headers, start_time, kibana_url, test_template, apk_name):
+def output_parse(result, device_id, info, headers, start_time_kibana, kibana_url, test_template, apk_name, encoded_image):
     lines = result.split('----')
     lines = filter(None, lines)
     scene_name = 'UNKNOWN'
@@ -237,7 +240,7 @@ def output_parse(result, device_id, info, headers, start_time, kibana_url, test_
                     "bool" : {
                         "must":[
                             {"match_phrase": {"scene_name" : scene_name}},
-                            {"match_phrase": {"date_of_test" : start_time}},
+                            {"match_phrase": {"date_of_test" : start_time_kibana}},
                             {"match_phrase": {"apk_name" : apk_name}}
                         ]
                     }
@@ -259,6 +262,7 @@ def output_parse(result, device_id, info, headers, start_time, kibana_url, test_
                 test['graphics_API'] = info[5] 
                 test['scene_name'] = scene_name
                 test['apk_name'] = apk_name
+                #test['image'] = encoded_image.decode("utf-8")
                 r = requests.post(kibana_url + '/_doc', data = json.dumps(test), headers = headers, timeout = 5)
                 json_r = json.loads(r.text)
                 id = json_r['_id']
@@ -275,7 +279,24 @@ def output_parse(result, device_id, info, headers, start_time, kibana_url, test_
                 #Get ID of existing entry and add to it
             else:
                 print('Too many entries match the query')
-    
+
+def get_picture(adb_cmd, device_id, device_name, start_time_file, time_to_sleep, output_dir, apk_name, cycle):
+    time.sleep(time_to_sleep)
+    picture_name =  str(apk_name) + '_Cycle-' + str(cycle) + '_' + str(device_name.replace(' ','_')) + '_' + str(device_id) + '_' + str(start_time_file) + '.png'
+    call_program(adb_cmd + ['shell', 'screencap', '/sdcard/' + picture_name])
+    picture_dir = os.path.join(output_dir, 'pictures')
+    if (os.path.isdir(picture_dir)) is False:
+        os.makedirs(picture_dir)
+    ret = call_program(adb_cmd + ['pull', '/sdcard/' + picture_name, picture_dir])
+    call_program(adb_cmd + ['shell', 'rm', '-f', '/sdcard/' + picture_name])
+    try:
+        with open(os.path.join(picture_dir, picture_name), "rb") as image_file:
+            encoded_string = base64.b64encode(image_file.read())
+    except FileNotFoundError:
+        return 'Image unavailable'
+    #print(encoded_string)
+    return encoded_string
+                
 def main():
     parser = argparse.ArgumentParser(prog='adb_perf_runner')
     parser.add_argument(
@@ -314,6 +335,8 @@ def main():
     device_name, device_tag = get_device_Snipeit(adb_cmd, args.device)
     result_sets = []
     
+    start_time_kibana = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+    start_time_file = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     
     dir_path = os.path.dirname(os.path.realpath(__file__))
     results_path = os.path.join(dir_path,'results')
@@ -361,11 +384,10 @@ def main():
             print('Unable to create index. REASON =  ',json_r['error']['type'])
         print(kibana_url)        
         headers = {"Content-Type" : "application/json"}
-        start_time = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
         test_template = {
             'device_serial' : args.device,
             'device_name' : device_name,
-            'date_of_test' : start_time,
+            'date_of_test' : start_time_kibana,
             'apk_name' : 'UNKNOWN',
             'scene_name' : 'UNKNOWN',
             'target_architecture' : 'UNKNOWN',
@@ -374,6 +396,7 @@ def main():
             'unity_version' : 'UNKNOWN',
             'changeset' : 'UNKNOWN',
             'graphics_API' : 'UNKNOWN',
+            'image' : 'Image unavailable',
             'data' : [],
             'error_log' : []
             }
@@ -385,22 +408,25 @@ def main():
             tempBatLevel = call_program(adb_cmd + ['shell', 'dumpsys', 'battery', '|', 'grep', 'level']).strip()
             print('Battery level before test # ' + str(i_apk) + ' is ' + str(tempBatLevel.decode('utf-8')) + '\n')
             write_to_file(result_file_path, 'Battery level before test # ' + str(i_apk) + ' is ' + str(tempBatLevel.decode('utf-8')) + '\n')
-            
+            apk_name = os.path.basename(apk) 
+            print('Running APK:' + str(apk_name)) 
             counter = args.retry + 1
             result = None
             info = None
             while (result is None and counter > 0):
-                run_single_app(adb_cmd, args.app_name, apk)
-                info = find_attributes(adb_cmd, 10)
-                result = get_results(adb_cmd, args.sleep,  args.retry, measure)
+                result = run_single_app(adb_cmd, args.app_name, apk, measure, args.sleep)
+                info = find_attributes(adb_cmd, 5)
+                #encoded_image = get_picture(adb_cmd, device_id, device_name, start_time_file, 1, output_dir, apk_name, i)
+                encoded_image = ''
+                if (not measure):
+                    result = get_results(adb_cmd, args.sleep,  args.retry)
                 counter -= 1
                 if (result is None):
                     print('Did not get result, retrying',counter,'more times')
             if result is None and counter == 0:
                 result = 'Test #' + str(i + 1) + ' Skipped after ' + str(args.retry + 1) + ' attempts'
             if(args.kibana is not None):
-                apk_name =os.path.basename(apk)
-                output_parse(result, device_id, info, headers, start_time, kibana_url, test_template, apk_name)
+                output_parse(result, device_id, info, headers, start_time_kibana, kibana_url, test_template, apk_name, encoded_image)
             print('Result set {0}: {1}'.format(i_apk, result))
             write_to_file(result_file_path, 'Result set {0}: {1}'.format(i_apk, result) + '\n') 
             result_sets[i_apk].append(result)

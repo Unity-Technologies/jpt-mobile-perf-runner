@@ -1,7 +1,0 @@
-BEGIN
-Cycle 0
-Battery level before test # 0 is level: 100
-Result set 0:  FrameTime = 31.59548
-Battery level before test # 1 is level: 100
-Result set 1:  FrameTime = 23.15176
-Battery level before test # 2 is level: 100

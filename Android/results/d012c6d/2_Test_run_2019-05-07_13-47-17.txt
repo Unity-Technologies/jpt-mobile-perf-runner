@@ -1,5 +1,0 @@
-BEGIN
-Cycle 0
-Battery level before test # 0 is level: 100
-Result set 0: 22.67991
-Battery level before test # 1 is level: 100
